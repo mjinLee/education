@@ -9,7 +9,7 @@ class Entrepreneur{
         return this.shares * getSharePrice(this.company);
     }
     public getName(){
-        return '${this.firstName} ${this.lastName}'
+        return `${this.firstName} ${this.lastName}`;
     }
 }
 const elon = new Entrepreneur("Elon","Musk", 177000000,"TSLA");

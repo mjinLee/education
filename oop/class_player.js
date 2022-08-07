@@ -6,9 +6,10 @@ class Player{
         this.health = health;
         this.skill = skill;
         this.xp=0;
+        this.calculateNetWorth = undefined;
     }
     sayHello(){
-        return 'Hi, my name is ${this.name} and my skill is ${this.skill}';
+        return `Hi, my name is ${this.name} and my skill is ${this.skill}`;
     }
     takeHit(){
         this.health = this.health - 5;
